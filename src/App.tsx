@@ -5,7 +5,7 @@
 
 import React from 'react';
 import { motion } from 'motion/react';
-import { ArrowUpRight, Github, Instagram, Linkedin, Twitter, LayoutGrid, ShieldCheck, Zap, Menu, X, Mail, Phone, MapPin, Send } from 'lucide-react';
+import { ArrowUpRight, Github, Instagram, Linkedin, Twitter, LayoutGrid, ShieldCheck, Zap, Menu, X, Mail, Phone, MapPin, Send, Code, Cpu, BarChart3, Lightbulb, Settings, ChevronRight } from 'lucide-react';
 import proyectosData from './proyectos.json';
 
 interface Proyecto {
@@ -252,23 +252,51 @@ export default function App() {
         </div>
       </section>
 
-      {/* Services Section (Placeholder for functionality) */}
+      {/* Services Section */}
       <section id="services" className="py-32 px-6 bg-white/[0.01]">
-        <div className="max-w-7xl mx-auto text-center">
-          <span className="text-accent text-xs font-bold uppercase tracking-widest mb-4 block">Nuestros Servicios</span>
-          <h2 className="text-4xl md:text-5xl font-bold font-display mb-12">SOLUCIONES INTEGRALES</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-16">
+            <span className="text-accent text-xs font-bold uppercase tracking-widest mb-4 block">Nuestros Servicios</span>
+            <h2 className="text-4xl md:text-5xl font-bold font-display uppercase">Soluciones Integrales</h2>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
-              { title: 'Desarrollo Web', desc: 'Plataformas modernas y escalables.', icon: LayoutGrid },
-              { title: 'Seguridad Digital', desc: 'Protección avanzada de datos.', icon: ShieldCheck },
-              { title: 'Optimización', desc: 'Rendimiento de alto impacto.', icon: Zap },
+              {
+                title: 'Desarrollo de Software a la Medida',
+                desc: 'Soluciones digitales exclusivas diseñadas para resolver las necesidades específicas de tu arquitectura empresarial.',
+                icon: Code
+              },
+              {
+                title: 'Automatización de Procesos',
+                desc: 'Optimizamos tu flujo de trabajo eliminando tareas manuales mediante integraciones e inteligencia operativa.',
+                icon: Cpu
+              },
+              {
+                title: 'Dashboards y Analítica',
+                desc: 'Transformamos datos complejos en paneles visuales estratégicos para decisiones basadas en información real.',
+                icon: BarChart3
+              },
+              {
+                title: 'Consultoría en Transformación Digital',
+                desc: 'Estrategia y acompañamiento técnico para modernizar tu empresa y adoptar una cultura tecnológica de vanguardia.',
+                icon: Lightbulb
+              },
+              {
+                title: 'Soporte y Evolución de Sistemas',
+                desc: 'Mantenimiento preventivo, soporte técnico especializado y mejora continua para tus plataformas digitales.',
+                icon: Settings
+              },
             ].map((service, i) => (
-              <div key={i} className="glass-panel p-10 hover:border-accent/50 transition-colors group">
-                <div className="w-16 h-16 bg-accent/10 rounded-2xl flex items-center justify-center text-accent mb-6 mx-auto group-hover:scale-110 transition-transform">
-                  <service.icon size={32} />
+              <div key={i} className="glass-panel p-10 hover:border-accent/50 transition-all group flex flex-col h-full">
+                <div className="w-14 h-14 bg-accent/10 rounded-2xl flex items-center justify-center text-accent mb-8 group-hover:scale-110 transition-transform border border-accent/20">
+                  <service.icon size={28} />
                 </div>
-                <h3 className="text-xl font-bold mb-4">{service.title}</h3>
-                <p className="text-zinc-400 text-sm leading-relaxed">{service.desc}</p>
+                <h3 className="text-xl font-bold mb-4 font-display leading-tight">{service.title}</h3>
+                <p className="text-zinc-400 text-sm leading-relaxed mb-8 flex-grow">{service.desc}</p>
+                <div className="flex items-center gap-2 text-accent text-xs font-bold uppercase tracking-widest cursor-pointer group/link">
+                  Solicitar Diagnóstico <ChevronRight size={14} className="group-hover/link:translate-x-1 transition-transform" />
+                </div>
               </div>
             ))}
           </div>
