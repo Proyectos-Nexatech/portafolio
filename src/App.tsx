@@ -242,7 +242,7 @@ export default function App() {
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
             <div>
-              <span className="text-accent text-xs font-bold uppercase tracking-widest mb-4 block">Mi Trabajo</span>
+              <span className="text-accent text-xs font-bold uppercase tracking-widest mb-4 block">Aplicativos Desarrollados</span>
               <h2 className="text-4xl md:text-5xl font-bold font-display">PROYECTOS RECIENTES</h2>
             </div>
             <div className="flex gap-2">
