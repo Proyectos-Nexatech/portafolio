@@ -32,7 +32,7 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 w-full z-50 px-6 py-4 md:py-6 bg-bg/80 backdrop-blur-md border-b border-white/5">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <div className="flex items-center gap-3 cursor-pointer" onClick={() => scrollToSection('home')}>
-          <img src="/Logo Nexa.jpg" alt="Nexatech Logo" className="h-16 w-auto object-contain" />
+          <img src="/logos divididos-3.png" alt="Nexatech Logo" className="h-16 w-auto object-contain" />
         </div>
 
         {/* Desktop Menu */}
@@ -396,7 +396,7 @@ export default function App() {
       <footer className="py-20 px-6 border-t border-white/5">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-10">
           <div className="flex items-center gap-3">
-            <img src="/Logo Nexa.jpg" alt="Nexatech Logo" className="h-12 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity" />
+            <img src="/logos divididos-3.png" alt="Nexatech Logo" className="h-12 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity" />
           </div>
           <p className="text-zinc-500 text-sm">
             © {new Date().getFullYear()} Nexatech. Todos los derechos reservados.
