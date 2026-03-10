@@ -5,7 +5,7 @@
 
 import React from 'react';
 import { motion } from 'motion/react';
-import { ArrowUpRight, Github, Instagram, Linkedin, Twitter, LayoutGrid, ShieldCheck, Zap, Menu, X, Mail, Phone, MapPin, Send, Code, Cpu, BarChart3, Lightbulb, Settings, ChevronRight } from 'lucide-react';
+import { ArrowUpRight, Github, Instagram, Linkedin, Twitter, LayoutGrid, ShieldCheck, Zap, Menu, X, Mail, Phone, MapPin, Send, Code, Cpu, BarChart3, Lightbulb, Settings, ChevronRight, CheckCircle2 } from 'lucide-react';
 import proyectosData from './proyectos.json';
 
 interface Proyecto {
@@ -192,9 +192,9 @@ export default function App() {
           <div className="relative">
             <div className="aspect-[4/5] rounded-[40px] overflow-hidden border-8 border-white/5">
               <img
-                src="https://picsum.photos/seed/nexa-about/800/1000"
-                alt="Nosotros"
-                className="w-full h-full object-cover"
+                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&h=1000&q=80"
+                alt="Ingeniería Nexatech"
+                className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
                 referrerPolicy="no-referrer"
               />
             </div>
@@ -204,28 +204,35 @@ export default function App() {
           </div>
 
           <div>
-            <span className="text-accent text-xs font-bold uppercase tracking-widest mb-4 block">Sobre Nosotros</span>
-            <h2 className="text-4xl md:text-5xl font-bold font-display mb-8 leading-tight">
-              ESTAMOS DISPONIBLES PARA <span className="text-accent">PROYECTOS DE DISEÑO UI/UX</span>
+            <span className="text-accent text-xs font-bold uppercase tracking-widest mb-4 block">Quiénes Somos</span>
+            <h2 className="text-4xl md:text-5xl font-bold font-display mb-8 leading-tight uppercase">
+              Ingeniería + Tecnología para <span className="text-accent">Empresas que Exigen Control</span>
             </h2>
-            <p className="text-zinc-400 mb-10 leading-relaxed">
-              Especialistas en el desarrollo de plataformas robustas y escalables. Nuestro enfoque combina la precisión técnica con una estética moderna y funcional.
+            <p className="text-zinc-400 mb-10 leading-relaxed text-lg">
+              En <span className="text-white font-bold">Nexatech</span> desarrollamos software empresarial a la medida que transforma la manera en que las organizaciones gestionan sus operaciones. Combinamos experiencia en ingeniería y gestión empresarial para crear soluciones digitales.
             </p>
 
-            <div className="grid grid-cols-3 gap-8 mb-12">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-12">
               {[
-                { label: 'Reseñas en Google', value: '280+' },
-                { label: 'Años de Experiencia', value: '15+' },
-                { label: 'Premios Ganados', value: '49+' },
-              ].map((stat, i) => (
-                <div key={i} className="glass-panel p-6 text-center">
-                  <div className="text-2xl font-bold font-display mb-1">{stat.value}</div>
-                  <div className="text-[10px] text-zinc-500 uppercase tracking-wider">{stat.label}</div>
+                'Visibilidad en tiempo real',
+                'Control operativo y financiero',
+                'Trazabilidad completa de la información',
+                'Automatización de procesos críticos',
+              ].map((feature, i) => (
+                <div key={i} className="flex items-center gap-3 bg-white/5 p-4 rounded-2xl border border-white/10 group hover:border-accent/50 transition-colors">
+                  <CheckCircle2 size={20} className="text-accent shrink-0" />
+                  <span className="text-sm font-medium text-zinc-300">{feature}</span>
                 </div>
               ))}
             </div>
 
-            <button className="btn-primary px-10 py-4">Contáctanos</button>
+            <div className="mb-12">
+              <p className="text-zinc-500 italic text-sm border-l-2 border-accent pl-6 py-2">
+                "No desarrollamos aplicaciones genéricas. Diseñamos plataformas adaptadas a la realidad de tu empresa."
+              </p>
+            </div>
+
+            <button onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })} className="btn-primary px-10 py-4">Hablemos ahora</button>
           </div>
         </div>
       </section>
