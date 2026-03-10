@@ -1,0 +1,42 @@
+[
+  {
+    "id": "plataforma-bustillo",
+    "titulo": "PLATAFORMA BUSTILLO",
+    "descripcion": "Sistema centralizado de gestión administrativa y operativa para el Grupo Bustillo. Control total de procesos corporativos.",
+    "tecnologias": ["React", "Supabase", "Tailwind CSS"],
+    "url": "https://bi.nexatech.com.co/login",
+    "imagen": "https://picsum.photos/seed/bustillo/800/600"
+  },
+  {
+    "id": "plataforma-operaciones",
+    "titulo": "PLATAFORMA OPERACIONES",
+    "descripcion": "Gestión de logística, dotación y consumibles en tiempo real. Optimización de recursos en campo y seguimiento operativo.",
+    "tecnologias": ["React", "Node.js", "PostgreSQL"],
+    "url": "https://operacioneshse.vercel.app/login",
+    "imagen": "https://picsum.photos/seed/ops/800/600"
+  },
+  {
+    "id": "plataforma-salud",
+    "titulo": "PLATAFORMA SALUD",
+    "descripcion": "Módulo especializado para el seguimiento de salud ocupacional y bienestar del personal técnico y operativo.",
+    "tecnologias": ["React", "Firebase", "Cloud Functions"],
+    "url": "https://proyectos-nexatech.github.io/Dashboard-salud/",
+    "imagen": "https://picsum.photos/seed/health/800/600"
+  },
+  {
+    "id": "plataforma-presupuestos",
+    "titulo": "PLATAFORMA PRESUPUESTOS",
+    "descripcion": "Herramienta avanzada de cálculo de APU y presupuestos técnicos. Control financiero detallado de proyectos.",
+    "tecnologias": ["React", "TypeScript", "SQLite"],
+    "url": "https://presupuestos-ashen.vercel.app",
+    "imagen": "https://picsum.photos/seed/budget/800/600"
+  },
+  {
+    "id": "web-bustillo",
+    "titulo": "WEB BUSTILLO",
+    "descripcion": "Portal corporativo y vitrina digital del Grupo Bustillo. Presencia web institucional con diseño de alto impacto.",
+    "tecnologias": ["Next.js", "Framer Motion", "Sanity IO"],
+    "url": "https://proyectos-nexatech.github.io/Bustillo_web/#/",
+    "imagen": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&h=600&q=80"
+  }
+]
