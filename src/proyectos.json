@@ -14,7 +14,7 @@
   {
     "id": "plataforma-operaciones",
     "titulo": "PLATAFORMA OPERACIONES HSE",
-    "descripcion": "Gestiona tus reportes y permisos de forma eficiente.Optimización de recursos en campo y seguimiento operativo.",
+    "descripcion": "Gestiona tus reportes y permisos de forma eficiente. Optimización de recursos en campo y seguimiento operativo.",
     "tecnologias": [
       "React",
       "Node.js",

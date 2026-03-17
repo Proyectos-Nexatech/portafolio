@@ -104,7 +104,7 @@ const ProjectCard: React.FC<{ proyecto: Proyecto }> = ({ proyecto }) => (
       <img
         src={proyecto.imagen}
         alt={proyecto.titulo}
-        className="w-full h-full object-cover rounded-2xl shadow-lg transition-transform duration-700 group-hover:scale-105"
+        className="w-full h-full object-contain rounded-2xl shadow-lg transition-transform duration-700 group-hover:scale-105"
         referrerPolicy="no-referrer"
       />
     </div>
