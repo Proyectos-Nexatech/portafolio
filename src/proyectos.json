@@ -58,5 +58,17 @@
     ],
     "url": "https://proyectos-nexatech.github.io/Bustillo_web/#/",
     "imagen": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&h=600&q=80"
+  },
+  {
+    "id": "gestion-activos",
+    "titulo": "GESTION DE ACTIVOS",
+    "descripcion": "Plataforma avanzada para la gestión de activos corporativos, mantenimiento preventivo y optimización de recursos.",
+    "tecnologias": [
+      "React",
+      "Supabase",
+      "Tailwind CSS"
+    ],
+    "url": "https://valvulas-six.vercel.app/login",
+    "imagen": "/gestion-activos.png"
   }
 ]
