@@ -2,6 +2,7 @@
   {
     "id": "plataforma-bustillo",
     "titulo": "PLATAFORMA BUSTILLO",
+    "tipo": "DISEÑO DE PLATAFORMA",
     "descripcion": "Sistema centralizado de gestión administrativa y operativa para el Grupo Bustillo. Control total de procesos corporativos.",
     "tecnologias": [
       "React",
@@ -9,11 +10,12 @@
       "Tailwind CSS"
     ],
     "url": "https://bi.nexatech.com.co/login",
-    "imagen": "https://picsum.photos/seed/bustillo/800/600"
+    "imagen": "/RRHH2.png"
   },
   {
     "id": "plataforma-operaciones",
     "titulo": "PLATAFORMA OPERACIONES HSE",
+    "tipo": "DISEÑO DE PLATAFORMA",
     "descripcion": "Gestiona tus reportes y permisos de forma eficiente. Optimización de recursos en campo y seguimiento operativo.",
     "tecnologias": [
       "React",
@@ -26,6 +28,7 @@
   {
     "id": "plataforma-salud",
     "titulo": "GESTION DE MEDICAMENTOS",
+    "tipo": "DISEÑO DE PLATAFORMA",
     "descripcion": "Módulo especializado para el seguimiento de salud ocupacional y bienestar del personal técnico y operativo.",
     "tecnologias": [
       "React",
@@ -33,11 +36,12 @@
       "Cloud Functions"
     ],
     "url": "https://proyectos-nexatech.github.io/Dashboard-salud/",
-    "imagen": "https://picsum.photos/seed/health/800/600"
+    "imagen": "/medicamentos.png"
   },
   {
     "id": "plataforma-presupuestos",
     "titulo": "PLATAFORMA PRESUPUESTOS",
+    "tipo": "DISEÑO DE PLATAFORMA",
     "descripcion": "Herramienta avanzada de cálculo de APU y presupuestos técnicos. Control financiero detallado de proyectos.",
     "tecnologias": [
       "React",
@@ -45,11 +49,12 @@
       "SQLite"
     ],
     "url": "https://presupuestos-ashen.vercel.app",
-    "imagen": "https://picsum.photos/seed/budget/800/600"
+    "imagen": "/presupuestos.png"
   },
   {
     "id": "web-bustillo",
     "titulo": "WEB BUSTILLO",
+    "tipo": "DISEÑO DE PAGINA WEB",
     "descripcion": "Portal corporativo y vitrina digital del Grupo Bustillo. Presencia web institucional con diseño de alto impacto.",
     "tecnologias": [
       "Next.js",
@@ -57,11 +62,12 @@
       "Sanity IO"
     ],
     "url": "https://proyectos-nexatech.github.io/Bustillo_web/#/",
-    "imagen": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&h=600&q=80"
+    "imagen": "/web_bustillo.png"
   },
   {
     "id": "gestion-activos",
-    "titulo": "GESTION DE ACTIVOS",
+    "titulo": "GESTION DE MANTENIMIENTO DE ACTIVOS",
+    "tipo": "DISEÑO DE PLATAFORMA",
     "descripcion": "Plataforma avanzada para la gestión de activos corporativos, mantenimiento preventivo y optimización de recursos.",
     "tecnologias": [
       "React",
@@ -69,6 +75,19 @@
       "Tailwind CSS"
     ],
     "url": "https://valvulas-six.vercel.app/login",
-    "imagen": "/gestion-activos.png"
+    "imagen": "/gestion_activos.png"
+  },
+  {
+    "id": "management",
+    "titulo": "MANAGEMET",
+    "tipo": "DISEÑO DE PLATAFORMA",
+    "descripcion": "Sistema de Gestión y Aseguramiento Metrológico (Metrología 5.0), gestion del conocimiento metrológico estructurado, asegurando el cumplimiento normativo bajo los estándares ISO/IEC 17025 e ISO 10012",
+    "tecnologias": [
+      "React",
+      "Tailwind CSS",
+      "TypeScript"
+    ],
+    "url": "#",
+    "imagen": "/metrologia.png"
   }
 ]

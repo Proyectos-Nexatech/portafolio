@@ -11,6 +11,7 @@ import proyectosData from './proyectos.json';
 interface Proyecto {
   id: string;
   titulo: string;
+  tipo: string;
   descripcion: string;
   tecnologias: string[];
   url: string;
@@ -110,7 +111,7 @@ const ProjectCard: React.FC<{ proyecto: Proyecto }> = ({ proyecto }) => (
     </div>
     <div className="p-8 bg-white text-zinc-900">
       <div className="flex items-center justify-between mb-2">
-        <span className="text-[10px] font-bold uppercase tracking-widest text-accent">Diseño de Plataforma</span>
+        <span className="text-[10px] font-bold uppercase tracking-widest text-accent">{proyecto.tipo}</span>
         <a
           href={proyecto.url}
           target="_blank"
@@ -170,8 +171,8 @@ export default function App() {
           >
             <div className="relative z-10 rounded-[30px] md:rounded-[40px] overflow-hidden border-4 md:border-8 border-white/5 shadow-2xl max-w-lg mx-auto">
               <img
-                src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&h=1000&q=80"
-                alt="Tecnología e Innovación"
+                src="/Bienvenidos.png"
+                alt="Bienvenidos a Nexatech"
                 className="w-full h-auto"
                 referrerPolicy="no-referrer"
               />
@@ -191,7 +192,7 @@ export default function App() {
           <div className="relative">
             <div className="aspect-[4/5] rounded-[40px] overflow-hidden border-8 border-white/5">
               <img
-                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&h=1000&q=80"
+                src="/ingenieria.png"
                 alt="Ingeniería Nexatech"
                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
                 referrerPolicy="no-referrer"
