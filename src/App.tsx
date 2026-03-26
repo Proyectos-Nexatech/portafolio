@@ -137,8 +137,12 @@ export default function App() {
             <div className="flex flex-wrap items-center justify-center lg:justify-start gap-6">
               <button className="btn-primary px-10 py-4">Contáctanos</button>
               <div className="flex gap-4">
-                {[Twitter, Instagram, Linkedin].map((Icon, i) => (
-                  <a key={i} href="#" className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-zinc-400 hover:bg-accent hover:text-white hover:border-accent transition-all">
+                {[
+                  { Icon: Twitter, url: '#' },
+                  { Icon: Instagram, url: 'https://www.instagram.com/nexatechsas?igsh=OWxoOHRxNWI0MjBv' },
+                  { Icon: Linkedin, url: '#' }
+                ].map(({ Icon, url }, i) => (
+                  <a key={i} href={url} target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-zinc-400 hover:bg-accent hover:text-white hover:border-accent transition-all">
                     <Icon size={18} />
                   </a>
                 ))}
@@ -386,8 +390,12 @@ export default function App() {
             © {new Date().getFullYear()} Nexatech. Todos los derechos reservados.
           </p>
           <div className="flex gap-8">
-            {[Twitter, Github, Linkedin].map((Icon, i) => (
-              <a key={i} href="#" className="text-zinc-400 hover:text-white transition-colors">
+            {[
+              { Icon: Twitter, url: '#' },
+              { Icon: Instagram, url: 'https://www.instagram.com/nexatechsas?igsh=OWxoOHRxNWI0MjBv' },
+              { Icon: Linkedin, url: '#' }
+            ].map(({ Icon, url }, i) => (
+              <a key={i} href={url} target="_blank" rel="noopener noreferrer" className="text-zinc-400 hover:text-white transition-colors">
                 <Icon size={20} />
               </a>
             ))}
