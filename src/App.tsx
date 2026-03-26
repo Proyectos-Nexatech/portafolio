@@ -75,24 +75,7 @@ const Navbar = () => {
   );
 };
 
-const LogoMarquee = () => (
-  <div className="py-12 border-y border-white/5 overflow-hidden bg-white/[0.02]">
-    <div className="marquee-content">
-      {[1, 2, 3, 4, 5, 6].map((i) => (
-        <React.Fragment key={i}>
-          <div className="flex items-center gap-2 opacity-30 grayscale hover:grayscale-0 hover:opacity-100 transition-all cursor-pointer">
-            <div className="w-6 h-6 bg-white rounded-full" />
-            <span className="font-display font-bold text-lg tracking-tighter">LOGOIPSUM</span>
-          </div>
-          <div className="flex items-center gap-2 opacity-30 grayscale hover:grayscale-0 hover:opacity-100 transition-all cursor-pointer">
-            <div className="w-6 h-6 bg-white rotate-45" />
-            <span className="font-display font-bold text-lg tracking-tighter">LOGOIPSUM</span>
-          </div>
-        </React.Fragment>
-      ))}
-    </div>
-  </div>
-);
+
 
 const ProjectCard: React.FC<{ proyecto: Proyecto }> = ({ proyecto }) => (
   <motion.div
@@ -184,7 +167,7 @@ export default function App() {
         </div>
       </section>
 
-      <LogoMarquee />
+
 
       {/* About Section */}
       <section id="about" className="py-32 px-6 bg-white/[0.01]">
