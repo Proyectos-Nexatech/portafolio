@@ -89,5 +89,18 @@
     ],
     "url": "https://managemet-gules.vercel.app/",
     "imagen": "/metrologia.png"
+  },
+  {
+    "id": "oncoflow",
+    "titulo": "ONCOFLOW",
+    "tipo": "SISTEMA DE GESTIÓN ONCOLÓGICA",
+    "descripcion": "Plataforma integral para la gestión y control de entregas de medicamentos oncológicos, programación de tratamientos y facturación médica.",
+    "tecnologias": [
+      "React",
+      "Tailwind CSS",
+      "TypeScript"
+    ],
+    "url": "https://oncoflow-liart.vercel.app/",
+    "imagen": "/oncoflow.png"
   }
 ]
