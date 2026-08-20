@@ -114,7 +114,7 @@
       "TypeScript"
     ],
     "url": "https://proveedores-app-ten.vercel.app/",
-    "imagen": "/oncocenter.png"
+    "imagen": "/Onconcenter.png"
   },
   {
     "id": "safeguard-astivik",
@@ -127,6 +127,6 @@
       "TypeScript"
     ],
     "url": "https://software-astivik.vercel.app/",
-    "imagen": "/safeguard.png"
+    "imagen": "/Safeguard_Astivik.png"
   }
 ]
