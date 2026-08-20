@@ -102,5 +102,31 @@
     ],
     "url": "https://oncoflow-liart.vercel.app/",
     "imagen": "/oncoflow.png"
+  },
+  {
+    "id": "oncocenter-proveedores",
+    "titulo": "ONCOCENTER",
+    "tipo": "GESTIÓN DE PROVEEDORES",
+    "descripcion": "Sistema para la gestión integral de proveedores y control de procesos relacionados.",
+    "tecnologias": [
+      "React",
+      "Tailwind CSS",
+      "TypeScript"
+    ],
+    "url": "https://proveedores-app-ten.vercel.app/",
+    "imagen": "/oncocenter.png"
+  },
+  {
+    "id": "safeguard-astivik",
+    "titulo": "SAFEGUARD ASTIVIK",
+    "tipo": "DISEÑO DE PLATAFORMA",
+    "descripcion": "Plataforma de gestión y seguimiento para las operaciones de Astivik.",
+    "tecnologias": [
+      "React",
+      "Tailwind CSS",
+      "TypeScript"
+    ],
+    "url": "https://software-astivik.vercel.app/",
+    "imagen": "/safeguard.png"
   }
 ]
