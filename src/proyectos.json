@@ -118,9 +118,9 @@
   },
   {
     "id": "safeguard-astivik",
-    "titulo": "SAFEGUARD ASTIVIK",
+    "titulo": "SAFEGUARD",
     "tipo": "DISEÑO DE PLATAFORMA",
-    "descripcion": "Plataforma de gestión y seguimiento para las operaciones de Astivik.",
+    "descripcion": "Plataforma para control de Acceso y gestion HSE",
     "tecnologias": [
       "React",
       "Tailwind CSS",
