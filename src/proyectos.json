@@ -128,5 +128,18 @@
     ],
     "url": "https://software-astivik.vercel.app/",
     "imagen": "/Safeguard_Astivik.png"
+  },
+  {
+    "id": "plataforma-certificados",
+    "titulo": "CERTIFICADOS",
+    "tipo": "DISEÑO DE PLATAFORMA",
+    "descripcion": "Plataforma para la gestión, emisión y validación de certificados.",
+    "tecnologias": [
+      "React",
+      "Tailwind CSS",
+      "TypeScript"
+    ],
+    "url": "https://certificados-bg5d.vercel.app/",
+    "imagen": "/certificados.png"
   }
 ]
